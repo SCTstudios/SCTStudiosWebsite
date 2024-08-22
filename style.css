@@ -1,0 +1,63 @@
+body {
+  background-color: rgba(235,230,220,1);
+  background-image: linear-gradient(rgba(255,255,255,1), rgba(235,230,220,1));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Outfit', Arial, sans-serif;
+}
+.section_heading {
+  font-size: 35px;
+  color: black;
+  font-weight: 900;
+  text-align: center;
+	color: rgba(25,25,25,1);
+}
+.logo {
+  margin: auto;
+  display: block;
+  padding-top: 30px;
+  width: 200px;
+  max-width: 100%;
+}
+.section {
+  margin-top: 60px;
+}
+.product {
+  max-width: 500px;
+  padding: 25px;
+  margin: auto;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 32px;
+  border: 1px solid rgba(0,0,0,0.0);
+  box-shadow: 2px 2px 80px 1px rgba(0, 0, 0, 0.08);
+}
+.thumbnail {
+  margin: auto;
+  margin-bottom: 0px;
+  max-width: 100%;
+  border-radius: 11px;
+}
+.product_text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+	color: rgba(35,35,35,1);
+}
+.contact_list{
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 60px;
+}
+a:link {
+  text-decoration: none;
+  color: #073d70;
+}
+a:visited {
+  text-decoration: none;
+  color: #073d70;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
